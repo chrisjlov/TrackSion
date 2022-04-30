@@ -10,8 +10,8 @@ from sklearn.neighbors import NearestNeighbors
 from sklearn.naive_bayes import GaussianNB
 
 
-clientId = '259fc2a05c5645a5bf0fa70b0910d057'
-clientSecret = 'f5383ba38661492bb5b4762dc500b2c6'
+clientId = 'CLIENT-ID'
+clientSecret = 'CLIENT-SECRET'
 
 client_credentials_manager = SpotifyClientCredentials(client_id=clientId, client_secret=clientSecret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
